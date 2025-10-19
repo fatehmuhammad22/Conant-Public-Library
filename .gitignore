@@ -1,0 +1,17 @@
+# Node & React
+node_modules/
+build/
+dist/
+.env
+
+# ASP.NET & Visual Studio
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Logs & temp
+*.log
+logs/
+temp/

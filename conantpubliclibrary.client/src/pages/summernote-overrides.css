@@ -1,0 +1,37 @@
+/* Force proper Summernote editor styling */
+.note-editor.note-frame {
+    font-size: 1rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    color: black !important;
+}
+
+.note-editable {
+    min-height: 300px !important;
+    font-size: 1rem !important;
+    color: black !important;
+}
+
+.note-toolbar {
+    font-size: 1rem !important;
+    padding: 0.5rem !important;
+}
+
+.note-btn {
+    font-size: 1rem !important;
+    padding: 6px 12px !important;
+}
+
+/* Bigger modal for editing */
+.modal-lg {
+    max-width: 90% !important;
+}
+
+    .modal-lg .modal-body {
+        overflow-x: auto;
+    }
+
+/* Ensure Summernote container is full width */
+#summernote-top {
+    width: 100% !important;
+}

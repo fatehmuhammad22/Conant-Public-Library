@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+END:VCALENDAR
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title></head>
+<body>
+    <form method="post" action="./ExportAsIcs" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="cfMM71/QaaRC+EGGvr9XMF+32Blh8XfmCx1n6sjsI7DMXq9HvKFUEuf4/M9HTCmAk/yVAvGzG/aqhH4ZqQfp+hg/+Igoz16Abz4510JOuEy1TiwBV3kPETfGHWC7CvSj" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D3F8CC8D" />
+</div>
+        <div>
+        </div>
+    </form>
+</body>
+</html>

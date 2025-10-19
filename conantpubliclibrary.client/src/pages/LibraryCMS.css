@@ -1,0 +1,188 @@
+.cms-container {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.cms-header {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.cms-nav-links {
+    margin-bottom: 20px;
+}
+
+    .cms-nav-links a {
+        margin: 0 5px;
+        color: #0066cc;
+        text-decoration: none;
+    }
+
+        .cms-nav-links a:hover {
+            text-decoration: underline;
+        }
+
+.cms-top-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 5px;
+    flex-wrap: wrap;
+}
+.btn-main {
+  background-color: white;
+  color: #0078d7;
+  padding: 10px 24px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 6px 6px 0 0;
+  transition: all 0.3s ease;
+}
+
+.btn-main.active {
+  background-color: #0078d7;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.btn-blue,
+.btn-gold,
+.btn-lightblue,
+.btn-green,
+.btn-help {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-blue:hover,
+.btn-gold:hover,
+.btn-lightblue:hover,
+.btn-green:hover,
+.btn-help:hover {
+  transform: scale(1.02);
+}
+.cms-divider {
+    border: 2px solid #0078d7;
+    margin: 20px 0;
+}
+
+.cms-panels {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.panel {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 350px;
+    min-height: 200px;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+}
+
+.help-panel {
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-blue {
+    background-color: #00bfff;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-lightblue {
+    background-color: #7dd3fc;
+    border: none;
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-gold {
+    background-color: #f5deb3;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.btn-green {
+    background-color: #c6f6c6;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.btn-help {
+    background-color: #ccc;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.dropdown {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+.instruction {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight:bold;
+    margin-bottom:-1px;
+}
+
+.menu-instructions {
+    font-size: 15px;
+    color: #333;
+    margin: 20px auto;
+    max-width: 1100px;
+    text-align: left;
+}
+
+.or-divider {
+    margin: 10px 0;
+    font-weight: bold;
+    color: black;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: gray;
+}

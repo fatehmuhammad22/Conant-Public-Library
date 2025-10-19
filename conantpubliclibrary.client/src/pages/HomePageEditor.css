@@ -1,0 +1,107 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+.grid-tile {
+    border: 1px solid #000000;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+}
+
+    .grid-tile.empty {
+        color: #ccc;
+        font-size: 5rem;
+        font-weight: bold;
+    }
+
+    .grid-tile.filled {
+        padding: 5px;
+        overflow: hidden;
+    }
+
+    .grid-tile img {
+        max-height: 70px;
+        object-fit: contain;
+    }
+.copy-tile {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: white;
+}
+
+    .copy-tile.selected-from {
+        background: #d9534f;
+        color: white;
+    }
+
+    .copy-tile.selected-to {
+        background: #5bc0de;
+        color: white;
+    }
+
+.custom-wide-modal {
+    width: 70% !important; 
+}
+
+@media (min-width: 992px) {
+    .custom-wide-modal {
+        max-width: 90% !important;
+    }
+}
+
+
+.note-editor.note-frame {
+    font-size: 1rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    color: black !important;
+}
+
+.note-editable {
+    min-height: 300px !important;
+    font-size: 1rem !important;
+    color: black !important;
+}
+
+.note-toolbar {
+    font-size: 1rem !important;
+    padding: 0.5rem !important;
+}
+
+.note-btn {
+    font-size: 1rem !important;
+    padding: 6px 12px !important;
+}
+
+.modal-lg {
+    width: 80% !important;
+}
+
+    .modal-lg .modal-body {
+        overflow-x: auto;
+    }
+
+#summernote-top {
+    width: 100% !important;
+}
+
+.modal-xl {
+    max-width: 80% !important;
+}
+
+.modal-content {
+    width: 100%;
+}

@@ -1,0 +1,45 @@
+.page-container {
+    padding: 20px 20px;
+    background-color: white;
+    min-height: 100vh;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.events-nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    .events-nav a {
+        margin: 0 10px;
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        .events-nav a:hover {
+            text-decoration: underline;
+        }
+
+.custom-table th,
+.custom-table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.custom-table th {
+    background-color: #f1f1f1;
+}
+
+.btn-sm {
+    font-size: 0.8rem;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+}
+    

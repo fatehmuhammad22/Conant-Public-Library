@@ -1,0 +1,82 @@
+.page-container {
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.events-nav {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+    .events-nav a {
+        margin: 0 12px;
+        text-decoration: none;
+        color: #007bff;
+    }
+
+        .events-nav a:hover {
+            text-decoration: underline;
+        }
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+
+    .custom-table th, .custom-table td {
+        padding: 16px 20px;
+        border-bottom: 1px solid #dee2e6;
+        vertical-align: middle;
+        font-size: 1rem;
+    }
+
+    .custom-table th {
+        background-color: #f8f9fa;
+        font-weight: 600;
+    }
+
+.btn-outline-primary,
+.btn-danger {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.add-btn {
+    padding: 10px 18px;
+    font-size: 0.95rem;
+    border-radius: 4px;
+}
+
+.modal .modal-dialog {
+    max-width: 500px;
+}
+
+.modal .modal-content {
+    padding: 10px;
+}
+
+.modal .modal-header,
+.modal .modal-body,
+.modal .modal-footer {
+    padding: 15px 20px;
+}
+
+.modal-title {
+    font-weight: 600;
+}
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+}

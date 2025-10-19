@@ -1,0 +1,46 @@
+/* CalendarEditor.css */
+.fc {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.fc-toolbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+.list-group-item-action {
+    cursor: pointer;
+}
+
+.modal-content {
+    border-radius: 8px;
+}
+
+.modal-xl {
+    max-width: 90vw;
+}
+
+.modal-dialog-scrollable .modal-body {
+    max-height: 60vh;
+    overflow-y: auto;
+}
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-body label {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.modal-body div {
+    font-size: 1rem;
+}
