@@ -1,6 +1,6 @@
-# 📚 Content Public Library
+# 📚 Conant Public Library
 
-A fully dynamic **Content Library Management System** built using **React.js (Frontend)**, **ASP.NET (Backend)**, and **Microsoft SQL Server (Database)**.  
+A fully dynamic **Conant Library Management System** built using **React.js (Frontend)**, **ASP.NET (Backend)**, and **Microsoft SQL Server (Database)**.  
 This project provides an efficient dashboard to manage and organize digital content such as articles, categories, authors, and users — with a modern, responsive, and completely dynamic interface.
 
 ---
@@ -14,7 +14,6 @@ This project provides an efficient dashboard to manage and organize digital cont
 ### 🧑‍💼 Admin Features
 - Add, edit, and delete content.
 - Manage authors, categories, and tags.
-- View analytics and reports.
 - User authentication and role-based access control.
 
 ### 📖 User Features
